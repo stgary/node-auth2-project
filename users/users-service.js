@@ -7,6 +7,5 @@ function isValid(user) {
     user.username 
     && user.password 
     && typeof user.password === "string" 
-    && user.department
   );
 }
